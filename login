@@ -58,7 +58,7 @@ button:hover {
 
 
 
-/* Change styles for span and cancel button on extra small screens */
+/* Change styles 4 span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
@@ -85,9 +85,7 @@ button:hover {
       <input type="password" placeholder="Enter Password" name="psw" required>
         
       <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
+     
     </div>
 
 <script>
