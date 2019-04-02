@@ -1,9 +1,13 @@
 <!DOCTYPE html>
+"use strict";
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
+
+const white = "#FFFFFF";
+const red = "#F00";
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -15,7 +19,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
+/* Set a style 4 all buttons */
 button {
   background-color: #FFA500;
   color: white;
